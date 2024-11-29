@@ -7,7 +7,7 @@ import Main from "./components/main/Main";
 
 function App() {
   return (
-    <div className="bg-custom-bg bg-cover bg-fixed">
+    <div className="bg-custom-bg bg-cover bg-fixed sm:bg-local relative">
       <Wrapper>
         <Header/>
         <Main/>

@@ -10,7 +10,7 @@ module.exports = {
         md: "1024px",
       },
       backgroundImage: {
-        'custom-bg': "url('/src/images/back3.jpg')", // Укажите ваш путь
+        'custom-bg': "url('/src/images/back5.jpg')", // Укажите ваш путь
       },
       animation: {
         ping: "ping 2s cubic-bezier(0, 0, 0.2, 1) infinite",
