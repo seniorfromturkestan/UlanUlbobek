@@ -7,12 +7,14 @@ import Main from "./components/main/Main";
 
 function App() {
   return (
-    <div className="bg-custom-bg bg-cover bg-fixed sm:bg-local relative">
-      <Wrapper>
-        <Header/>
-        <Main/>
-      </Wrapper>
-    </div>
+    <div className="relative">
+     <div className="fixed top-0 left-0 w-full h-full bg-custom-bg bg-cover bg-center -z-10"></div>
+    <Wrapper>
+      <Header />
+      <Main />
+    </Wrapper>
+  </div>
+  
   );
 }
 
