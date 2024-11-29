@@ -1,5 +1,5 @@
 import React from 'react'
-import JasJubai from "../../images/IMG_4825.JPG";
+import JasJubai from "../../images/IMG_4830.PNG";
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { useRef } from 'react';
