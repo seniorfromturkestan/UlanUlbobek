@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import tlgm from '../../images/teelegrm.png'
-import toigadein from '../../images/feruza.png'
+import toigadein from '../../images/toigadein.png'
 import toiyeleri from '../../images/kurmetpepn.png'
 import toigu from '../../images/seitmanshyk.png'
 
@@ -52,9 +52,6 @@ const Footer = () => {
 
             
           </div>
-
-
-            
 
             <div className="text-center p-6 text-[#364557] max-w-sm mx-auto">
               <img src={toigadein} alt="/"  className='w-52 mx-auto my-4'/>
