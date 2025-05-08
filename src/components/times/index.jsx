@@ -2,8 +2,8 @@ import { useState } from 'react';
 import gis from '../../images/2gis.png'
 import { useEffect } from 'react';
 import Ofo from "../../images/oform.png";
-import sagat from "../../images/сағат 19_00-де.png";
-import orny from "../../images/Өткізілетін орны.png";
+import sagat from "../../images/sagat1900.png";
+import orny from "../../images/orny1.png";
 
 const Time = () => {
     const [isLoaded, setIsLoaded] = useState(false); // Управление состоянием загрузки

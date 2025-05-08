@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import tlgm from '../../images/teelegrm.png'
-import toigadein from '../../images/Тойға дейін_.png'
-import toiyeleri from '../../images/Құрметпен, той йелері.png'
-import toigu from '../../images/Сейіт-Мәншук.png'
+import toigadein from '../../images/feruza.png'
+import toiyeleri from '../../images/kurmetpepn.png'
+import toigu from '../../images/seitmanshyk.png'
 
 const Footer = () => {
-  const targetDate = new Date('2025-06-14T19:00:00'); // Дата свадьбы
+  const targetDate = new Date('2025-06-14T19:00:00');
 
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 

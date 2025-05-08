@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import MobileMenu from "../mobile-menu";
-import toiga from "../../images/Тойғашақыру.png";
+import toiga from "../../images/toigashak.png";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

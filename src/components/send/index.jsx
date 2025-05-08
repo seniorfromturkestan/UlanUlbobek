@@ -3,9 +3,9 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { FaHeart } from "react-icons/fa"; // Установка: npm install react-icons
 import Ofo from "../../images/oform.png";
-import kurmetti from "../../images/Құрметті қонақтар.png"
-import toikun from "../../images/Той күні.png"
-import toikun2 from "../../images/14 маусым 2025.png"
+import kurmetti from "../../images/kurmetti1.png"
+import toikun from "../../images/toikuni.png"
+import toikun2 from "../../images/14mausym.png"
 
 
 

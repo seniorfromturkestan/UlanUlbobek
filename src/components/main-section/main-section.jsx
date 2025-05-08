@@ -6,8 +6,8 @@ import { useRef } from 'react';
 import { FaPlay, FaStop } from "react-icons/fa";
 
 
-import Jastar from '../../images/Феруза.png'
-import Jastar2 from '../../images/Қыз ұзату.png'
+import Jastar from '../../images/feruza.png'
+import Jastar2 from '../../images/kyzuzatu.png'
 import Song from "../../audio/song2Kazbek.mp3";
 import Ofo from "../../images/oform.png";
 
