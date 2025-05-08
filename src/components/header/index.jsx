@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import MobileMenu from "../mobile-menu";
-import toiga from "../../images/Тойғашақыру.png";
+import toiga from "../../images/Тойғашақыру.png";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -19,9 +19,6 @@ const Header = () => {
       <header className="flex items-center py-2 pr-2">
         <nav>
           <img src={toiga} alt="" className="w-52 ml-3"/>
-        
-
-
         </nav>
         
         <div
