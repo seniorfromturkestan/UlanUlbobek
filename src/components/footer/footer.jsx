@@ -36,7 +36,6 @@ const Footer = () => {
           <p className="text-center font-semibold max-w-sm px-4 uppercase">
             Құрметті қонақтар, <span >той фотоларын</span>  төмендегі каналдан ала аласыздар!
             </p>
-            {/* Кнопка Telegram */}
             <a 
               href="https://t.me/your_telegram_link" 
               target="_blank" 
