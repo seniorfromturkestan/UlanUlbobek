@@ -37,7 +37,7 @@ const Footer = () => {
             Құрметті қонақтар, <span >той фотоларын</span>  төмендегі каналдан ала аласыздар!
             </p>
             <a 
-              href="https://t.me/your_telegram_link" 
+              href="https://t.me/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center px-6 py-3 text-white rounded-lg shadow-md"
