@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import MobileMenu from "../mobile-menu";
-import logo from "../../images/Тойға шақыру.png";
+import toiga from "../../images/Тойға шақыру.png";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -15,10 +15,10 @@ const Header = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full bg-white bg-opacity-70 z-50">
+    <div className="fixed top-0 left-0  w-full bg-white bg-opacity-70 z-50">
       <header className="flex items-center py-2 pr-2">
-        <nav className="text-2xl font-bold">
-          <img src={logo} alt="" className="w-52 ml-3"/>
+        <nav>
+          <img src={toiga} alt="" className="w-52 ml-3"/>
         
 
 
@@ -30,13 +30,13 @@ const Header = () => {
         >
           {isMobileMenuOpen ? (
             <div>
-                <AiOutlineClose className="text-4xl" />
+                <AiOutlineClose className="text-3xl" />
             </div>
           
           ) : (
             <div>
-            <AiOutlineMenu className="text-4xl mr-2" />
-            <p className="text-xs font-montserrat">Меню</p>
+            <AiOutlineMenu className="text-3xl mr-2" />
+            <p className="text-[10px] font-montserrat">Меню</p>
             </div>
 
             
