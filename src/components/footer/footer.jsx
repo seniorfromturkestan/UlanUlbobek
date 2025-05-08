@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
-import otbs from '../../images/Container.png'
-import tlgrm from '../../images/teelegrm.png'
+import tlgm from '../../images/teelegrm.png'
+import toigadein from '../../images/Тойға дейін_.png'
+import toiyeleri from '../../images/Құрметпен, той йелері.png'
+import toigu from '../../images/Сейіт-Мәншук.png'
 
 const Footer = () => {
-  const targetDate = new Date('2024-12-03T19:00:00'); // Дата свадьбы
+  const targetDate = new Date('2025-06-14T19:00:00'); // Дата свадьбы
 
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
@@ -30,43 +32,57 @@ const Footer = () => {
   return (
     <div id="photos">
 
+          <div className="flex flex-col items-center mt-8 space-y-4">
+          <p className="text-center font-semibold max-w-sm px-4 uppercase">
+            Құрметті қонақтар, <span >той фотоларын</span>  төмендегі каналдан ала аласыздар!
+            </p>
+            {/* Кнопка Telegram */}
+            <a 
+              href="https://t.me/your_telegram_link" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center justify-center px-6 py-3 text-white rounded-lg shadow-md"
+            >
+              <img 
+                src={tlgm} 
+                alt="Telegram" 
+                className="w-6 h-6 mr-2" 
+              />
+              <span className='text-black font-bold'>Telegram-ға өту</span>
+            </a>
 
-            <div className='mt-[10%] mb-[5%] text-[#364557]'>
-                <p className='text-center text-lg font-montserrat'>Құрметті қонақтар, <strong>той фотоларын</strong> <br />төмендегі каналдан ала аласыздар!</p>
-                <a href="https://t.me/+LcEKaHyYI-VhYTYy">
-                  <button  className='mt-5 mx-auto flex items-center font-bold text-2xl  p-2 px-4 space-x-4 rounded-full bg-[#364557] text-white'>
-                    <span className='font-montserrat'>Каналға өту</span> 
-                      <img src={tlgrm} width="50px" alt="/" />
+            
+          </div>
 
-                  </button>
-                </a>
-            </div>    
+
+            
 
             <div className="text-center p-6 text-[#364557] max-w-sm mx-auto">
-            <p className="text-2xl font-montserrat font-semibold mb-4">Тойға дейін:</p>
+              <img src={toigadein} alt="/"  className='w-52 mx-auto my-4'/>
             <div className="flex justify-center space-x-6 text-[#364557]">
               <div className="time-part text-[#364557]">
-                <p className="text-4xl font-bold text-[#364557] font-montserrat">{timeLeft.days}</p>
-                <p className="text-sm text-[#364557] font-montserrat">күн</p>
+                <p className="text-4xl font-bold text-[#364557]">{timeLeft.days}</p>
+                <p className="text-sm text-[#364557]">күн</p>
               </div>
               <div className="time-part">
-                <p className="text-4xl font-bold text-[#364557] font-montserrat">{timeLeft.hours}</p>
-                <p className="text-sm text-[#364557] font-montserrat">сағат</p>
+                <p className="text-4xl font-bold text-[#364557]">{timeLeft.hours}</p>
+                <p className="text-sm text-[#364557]">сағат</p>
               </div>
               <div className="time-part">
-                <p className="text-4xl font-bold text-[#364557] font-montserrat">{timeLeft.minutes}</p>
-                <p className="text-sm text-[#364557] font-montserrat">минут</p>
+                <p className="text-4xl font-bold text-[#364557]">{timeLeft.minutes}</p>
+                <p className="text-sm text-[#364557]">минут</p>
               </div>
               <div className="time-part">
-                <p className="text-4xl font-bold text-[#364557] font-montserrat">{timeLeft.seconds}</p>
-                <p className="text-sm text-[#364557] font-montserrat">секунд</p>
+                <p className="text-4xl font-bold text-[#364557]">{timeLeft.seconds}</p>
+                <p className="text-sm text-[#364557]">секунд</p>
               </div>
             </div>
             
           </div>
-          <div className='w-full '>
-            <img src={otbs} alt="/"  width="100%"/>
-          </div>
+            <img src={toiyeleri} alt="" className='w-72 mx-auto'/>
+            <img src={toigu} alt="" className='w-72 mx-auto mb-20' />
+
+
 
 
 

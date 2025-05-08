@@ -3,23 +3,21 @@ import NavItem from "../nav-item";
 
 const MobileMenu = ({ isOpen = false, onClose }) => {
   const handleScrollTo = (id) => {
-    onClose(); // Закрывает меню
+    onClose(); 
     document.getElementById(id)?.scrollIntoView({
-      behavior: "smooth", // Плавная прокрутка
+      behavior: "smooth",
     });
   };
 
   return (
     <>
-      {/* Полупрозрачный фон */}
       <div
         className={`absolute top-0 left-0 right-0 bg-almost-black opacity-50 z-10 min-h-[150vh] ${
           isOpen ? "flex" : "hidden"
         }`}
-        onClick={onClose} // Закрыть при клике на фон
+        onClick={onClose} 
       />
       
-      {/* Само меню */}
       <div
         className={`absolute right-0 top-0 w-1/2 bg-white justify-center z-20 min-h-[150vh] ${
           isOpen ? "flex" : "hidden"
